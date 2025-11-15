@@ -64,3 +64,11 @@ $ forge --help
 $ anvil --help
 $ cast --help
 ```
+
+
+# First Install OpenZeppelin Contracts
+forge install OpenZeppelin/openzeppelin-contracts --no-commit
+
+# Verify installation
+ls lib/
+# Output should show: forge-std  openzeppelin-contracts
